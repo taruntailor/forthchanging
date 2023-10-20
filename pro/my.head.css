@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cont {
+    /* margin: 0px 80px; */
+    /* padding: 30px 0px; */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.287);
+}
+
+.header .navbaar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header .navbaar .logo {
+    flex: 1;
+}
+
+.header .navbaar .logo .ds {
+    position: absolute;
+    top: 55px;
+    left: 175px;
+    font-size: 40px;
+    text-transform: capitalize;
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Tulpen One', cursive;
+}
+
+.header .navbaar .logo img {
+    height: 140px;
+
+}
+
+.header .navbaar .nav {
+    flex: 1;
+}
+
+.header .navbaar .nav ul .close a {
+    color: white;
+}
+
+    .header .navbaar .nav ul {
+        display: flex;
+        flex: 1;
+        gap: 15px;
+        text-transform: uppercase;
+
+    }
+
+    .header .navbaar .nav .close a {
+        color: black;
+        font-size: 30px;
+    }
+
+    .header .navbaar .menu button {
+        background-color: aliceblue;
+        color: black;
+        border: none;
+        height: 30px;
+        width: 30px;
+    }
