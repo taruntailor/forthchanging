@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===========cdn-link-================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- =============css-file-link============== -->
+    <link rel="stylesheet" href="max_width572.css">
+    <link rel="stylesheet" href="min_width572.css">
+    <link rel="stylesheet" href="min_width786.css">
+    <link rel="stylesheet" href="min.width992.css">
+    <link rel="stylesheet" href="min_width1200.css">
+    <!-- ===========css-file-link================= -->
+    <link rel="stylesheet" href="header.css">
+    <!-- ===========ja-file-link============= -->
+    <link rel="stylesheet" href="header.js">
+    <!-- ================================================================================================ -->
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="contenar">
+                <div class="navebar">
+                    <div class="flex">
+                        <div class="logo">
+                            <h1> <span class="fa-brands fa-tiktok"></span> india-music</h1>
+
+                        </div>
+                        <div class="nav">
+                            <ul>
+                                <li><a href="">home</a></li>
+                                <li><a href="">about</a></li>
+                                <li><a href="">service</a></li>
+                                <li><a href="">begas</a></li>
+                                <li><a href="">contect</a></li>
+                                <div class="icon">
+                                    <span class="fa-solid fa-moon"></span></a>
+                                    <!-- <a href=""><span class="fa-solid fa-sun"></span></a> -->
+                                </div>
+                            </ul>
+
+                        </div>
+                        <div class="baar">
+                            <a href=""><span class=" fa fa-bars"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+        //    theam change
+        let icon = document.querySelector(".fa-moon")
+        icon.addEventListener("click", function () {
+            document.body.classList.toggle("dark")
+
+            if (document.body.classList.contains("dark") == true) {
+                icon.classList.remove("fa-moon")
+                icon.classList.add("fa-sun")
+            }
+            else {
+                icon.classList.remove("fa-sun")
+                icon.classList.add("fa-moon")
+            }
+        }
+        )
+        // navbars
+
+
+    </script>
+    <!-- section=2 -->
+    <section class="sec-1">
+        <img src="cvb1.jpg" alt="">
+    </section>
+</body>
+
+</html>

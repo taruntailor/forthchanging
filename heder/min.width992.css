@@ -1,0 +1,19 @@
+@media (min-width:992px) {
+    .contenar {
+        margin: 0px 65px !important;
+    }
+
+    .header .flex .nav {
+        display: block !important;
+    }
+
+    .header .flex .logo {
+        font-size: 22px !important;
+    }
+
+    .header .flex .baar a {
+        display: none !important;
+        padding: 10px !important;
+
+    }
+}
