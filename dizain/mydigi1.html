@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #000;
+    }
+
+    .lodear {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: linear-gradient(45deg, transparent, transparent 40%, rgb(0, 170, 255));
+        animation: animate 2s linear infinite;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+
+    }
+
+    .lodear::before {
+        content: "";
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        left: 6px;
+        bottom: 6px;
+        background: #000;
+        border-radius: 50%;
+        z-index: 1000;
+    }
+
+    .lodear::after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        background: linear-gradient(45deg, transparent, transparent 40%, rgb(0, 170, 255));
+        border-radius: 50%;
+        z-index: 1000;
+        z-index: 1;
+        filter: blur(30px);
+
+    }
+    .tex{
+        position: fixed;
+    }
+
+    .tex h2 {
+        color: rgb(0, 170, 255);
+        text-align: center;
+        font-size: 32px;
+    text-transform: uppercase
+    }
+</style>
+
+<body>
+    <div class="lodear"> </div>
+    <div class="tex">
+        <h2>lodding...</h2>
+    </div>
+</body>
+
+</html>
