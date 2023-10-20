@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.reg{
+    height:  ;
+    width:100%;
+   
+    background-color: blue;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.reg .data{
+    height: 650px;
+    width: 650px;
+    margin: 80px;
+    background-color: aliceblue;
+    border: 2px solid blaclk;
+    
+    
+  
+}
