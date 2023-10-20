@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cont {
+    margin: 0px 50px;
+}
+
+.main {
+    background-color: blanchedalmond;
+}
+
+.main .p {
+    padding: 10px;
+    /* display: flex; */
+    /* padding: px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .p .head {
+    color: rgba(255, 0, 0, 0.815);
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+
+.main .p .head .line {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.678);
+    height: 5px;
+    width: 201px;
+}
+
+.we {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgba(68, 67, 67, 0.747);
+    text-shadow: 2px 2px #a19696;
+}
+
+.sec-1 {
+    background-color: rgb(235, 247, 247);
+}
+
+.sec-1 .con {
+    margin: 0px 40px;
+}
+
+.sec-1 .con .p {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.sec-1 .p .dat {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+
+}
+
+.dat .dat-1 {
+    background-color: aliceblue;
+    height: auto;
+    width: auto;
+    border: 2px solid rgb(7, 7, 7);
+
+
+}
+
+.dat .dat-1 img {
+    height: 200px;
+    width: 100%;
+}
+
+.dat .dat-1 .text {
+    padding: 10px;
+
+}
+
+.dat .dat-1 .text p {
+    color: rgb(105, 105, 103);
+    text-align: justify;
+}
+
+.dat .dat-1 .text h2 p {
+    color: black;
+    padding-top: 10px;
+}
+
+.fottor {
+    background-color: blanchedalmond;
+}
+
+.fottor .text {
+    padding: 10px;
+}
