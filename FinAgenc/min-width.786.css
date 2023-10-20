@@ -1,0 +1,12 @@
+@media (min-width:786px) {
+    .contenair{
+        margin: 0px 40px;
+    }
+    
+    .nav{
+     display: none;    
+    }
+    .social button{
+        display: none;
+    }
+}

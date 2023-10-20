@@ -1,0 +1,12 @@
+@media (max-width:576px) {
+    .contenair{
+        margin: 0px 20px;
+    }
+    
+    .nav{
+     display: none;    
+    }
+    .social button{
+        display: none;
+    }
+}
